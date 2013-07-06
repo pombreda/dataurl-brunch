@@ -1,0 +1,30 @@
+{
+  "name": "dataurl-brunch",
+  "version": "1.0.0",
+  "description": "Adds support for fonts / images under data-uri scheme for inline embedding",
+  "author": {
+    "name": "Sabin Marcu",
+    "email": "sabinmarcu@gmail.com"
+  },
+  "homepage": "https://github.com/sabinmarcu/dataurl-brunch",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sabinmarcu/dataurl-brunch.git"
+  },
+  "main": "./lib/index",
+  "scripts": {
+    "prepublish": "node setup.js prepublish",
+    "postpublish": "node setup.js postpublish",
+    "test": "node setup.js test"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "dependencies": {
+    "mime": ">=1.2.9"
+  },
+  "devDependencies": {
+    "mocha": "1.8.1",
+    "chai": "1.4.2"
+  }
+}
