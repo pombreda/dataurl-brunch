@@ -16,4 +16,4 @@ Add `"dataurl-brunch": "x.y.z"` to `package.json` of your brunch app.
 Pick a plugin version that corresponds to your minor (y) brunch version.
 
 If you want to use git version of plugin, add
-`"json-brunch": "git+ssh://git@github.com:rentlytics/json-brunch.git"`.
+`"dataurl-brunch": "git+ssh://git@github.com:sabinmarcu/dataurl-brunch.git"`.
